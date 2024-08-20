@@ -7,7 +7,7 @@ import Registrar from "../telas/Registrar";
 //  configurar  - <Stack.Screen name="Home" component={Home}/>
 const Stack = createNativeStackNavigator();
 
-export default function StackNavigator({user}) {
+export default function StackNavigator({}) {
   return ( 
     <Stack.Navigator screenOptions={{headerShown: false}}>
       <Stack.Screen name="Login" component={Login} />
